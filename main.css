@@ -1,6 +1,10 @@
+:root {
+  --bs-primary: #231F4D;
+}
+
 body {
   margin: 0;
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
 }
 
 .full-heigth {
@@ -20,11 +24,21 @@ header {
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(12px 6px 8px rgba(0, 0, 0, 0.459));
 }
-
+/* 
 .btn-primary {
   background-color: #231F4D;
+} */
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: none !important;
+    flex-basis: auto;
+  }
 }
 
+.nav-link{
+  font-family: "Lexend", sans-serif;
+}
 /* 
 
 
